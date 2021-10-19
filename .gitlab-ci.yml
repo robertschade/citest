@@ -1,6 +1,7 @@
 test:
   stage: build
-  tags: testtag
+  tags: 
+    - testtag
   variables:
     SCHEDULER_PARAMETERS: ""
   script:
