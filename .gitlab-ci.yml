@@ -1,0 +1,6 @@
+test:
+  stage: build
+  variables:
+    SCHEDULER_PARAMETERS: ""
+  script:
+    - echo "Hello from " $(cat /etc/hostname)
